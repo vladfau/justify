@@ -23,6 +23,10 @@ Repository contains a provided example text to test it out:
 
 `./justify.py 20 file ./file`
 
+To avoid debug output:
+
+`./justify.py 20 file ./file 2>/dev/null`
+
 ## Positional Parameters
 
 * `<width>` – expected width of the paragraph, non-negative integers

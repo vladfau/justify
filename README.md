@@ -11,10 +11,17 @@ Program to build left AND right justified output for a given string.
 * Python >=3.7.5
 * For testing, it's required to have `pytest` >=5.3.5 (can be installed as `pip3 install pytest==5.3.5`)
 
+Requirements can be satisified by running `pip3 install -r requirements.txt` from repostirory root.
 
 # Running
 
+Usage:
+
 `jusitfy.py <width> <'file'|'stdin'> <path to file|text>`
+
+Repository contains a provided example text to test it out:
+
+`./justify.py 20 file ./file`
 
 ## Positional Parameters
 
